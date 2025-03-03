@@ -1,0 +1,9 @@
+services:
+  app:
+    image: golang:latest
+    working_dir: /app
+    volumes:
+      - ./:/app
+    ports:
+      - 127.0.0.1:3000:3000
+    command: tail -f /dev/null
