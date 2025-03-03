@@ -1,5 +1,5 @@
 {
-	"name": "DilmunPay",
+	"name": "app",
 	"dockerComposeFile": "../docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/app",
